@@ -1,0 +1,38 @@
+{
+  "name": "dmlair",
+  "version": "1.0.0",
+  "description": "dungeon masters lair. collection of information.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ./src",
+    "commit": "git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kriskross2893/dmLair.git"
+  },
+  "keywords": [
+    "D&D",
+    "5e",
+    "electron",
+    "react"
+  ],
+  "author": "kriskross2893",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/kriskross2893/dmLair/issues"
+  },
+  "homepage": "https://github.com/kriskross2893/dmLair#readme",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.0-beta.63",
+    "commitizen": "^4.2.4",
+    "electron": "^17.0.0",
+    "inquirer": "^8.2.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./tools/commitizen"
+    }
+  }
+}
